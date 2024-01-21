@@ -1,0 +1,1 @@
+# i18n_load_webpack_test
