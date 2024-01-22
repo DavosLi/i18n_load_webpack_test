@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "serve": "http-server",
+    "serve": "cd dist && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -17,6 +17,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "vite": "^5.0.12"
   }
 }
