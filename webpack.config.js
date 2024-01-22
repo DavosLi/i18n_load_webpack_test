@@ -8,7 +8,7 @@ module.exports = {
     devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.[hash].js',
+        filename: '[name].[contenthash].js',
         clean: true,
       },
     plugins: [
