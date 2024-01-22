@@ -1,5 +1,5 @@
 # i18n_load_webpack_test
-## 测试不同方案价值多语言
+## 测试webpack多种多语言打包方式
 
 ### 各种方案见 src/index.js
 ### 安装
