@@ -16,10 +16,10 @@ module.exports = {
           title: 'My App',
           template: 'src/index.html',
         }),
-        new CopyPlugin({
-            patterns: [
-              { from: 'src/locale', to: "./locale" },
-            ],
-          }),
+        // new CopyPlugin({
+        //     patterns: [
+        //       { from: 'src/locale', to: "./locale" },
+        //     ],
+        //   }),
     ],
   }
